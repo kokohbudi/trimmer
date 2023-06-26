@@ -9,7 +9,6 @@ This script is designed for Linux users and enables automatic SSD trimming at re
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
