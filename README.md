@@ -31,28 +31,28 @@ To use this script, you should have the following prerequisites:
 1. Clone or download this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/ssd-trim-script.git
+   git clone https://github.com/kokohbudi/trimmer.git
    ```
 2. Make the script executable:
    ```bash
-   chmod +x ssd-trim.sh
+   chmod +x trim.sh
    ```
 3. Optionally, review the script configuration:
-    Open ssd-trim.sh in a text editor to modify the script parameters if needed. By default, the script is scheduled to run       every two weeks, but you can change this interval based on your requirements.
+    Open trim.sh in a text editor to modify the script parameters if needed. By default, the script is scheduled to run       every two weeks, but you can change this interval based on your requirements.
 4. Add the script to your system's startup applications:
 
 Depending on your Linux distribution, the steps to add a startup application may vary. Generally, you can follow these steps:
 
 - Open the Startup Applications or Session and Startup settings.
 - Click on Add or + to create a new startup application.
-- Provide a name (e.g., SSD Trim) and the path to the ssd-trim.sh script.
+- Provide a name (e.g., SSD Trim) and the path to the trim.sh script.
 - Save the changes.
 
 Reboot your system or manually start the script:
 
 5. After adding the script to the startup applications, the SSD trimming script will automatically run during system startup. Alternatively, you can manually execute the script by running:
 ```bash
-./ssd-trim.sh
+./trim.sh
 ```
 
 ## Usage
